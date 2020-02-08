@@ -1,3 +1,18 @@
+<?php
+  //$userCode = fopen("UserStockCode.txt", "r") or die("Unable to open file!");
+    /*$tickerArr = explode(" ", $_POST['tickerArr']);
+    $currentTickerFile = "";
+    $tickersArray = [];
+    for( $i = 0; $i < sizeOf($tickerArr); $i++){
+        $currentTickerFile = fopen("{$tickerArr[$i]}.csv", r);
+        while( ($tickerData = fgetcsv($currentTickerFile, 1000, ",")) !== FALSE){
+            $tickersArray[$i] = $tickerData[4];
+        }
+        fclose($currentTickerFile);
+    }*/
+    
+?>
+
 <!DOCTYPE html>
 <head>
 <style>
